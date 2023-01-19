@@ -1,0 +1,114 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+img {
+    width: 100px;
+    height: 75px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+
+#hero {
+    background-image: url("images/chesterton.jpeg");
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 0 0 2px black;
+}
+
+.hero-txt {
+        color: #fff;
+        border-radius: 10px;
+}
+
+#my-town {
+    background: #9EACAF;
+    padding: 3px 12px;
+    margin-bottom: 0
+}
+
+#summary {
+    font-size: 20px;
+    background: #6693A0;
+    width: 75%;
+    padding: 5px 28px;
+    margin-top: 10px;
+}
+
+#act {
+    background-color: #F1FAEE;
+    color: #6693A0;
+    padding: 40px 0;
+    margin-bottom: 50px;
+}
+
+#img-container {
+    display: flex;
+    justify-content: space-around
+}
+
+.act-img {
+    border-radius: 50%;
+    border: 2px solid #C7927F 343C16;
+    width: 100px;
+    height: 100px;
+}
+
+.act-img:hover {
+    border-radius: 40%;
+    border: 2px solid #343C16;
+    width: 110px;
+    height: 110px;
+}
+
+.act-cap {
+    font-weight: 700;
+}
+
+#card {
+    background: #6693A0;
+    color: #343C16;
+    width: 400px;
+    height: 300px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    border-bottom: 5px solid #343C16;
+    text-shadow: 0 0 0px black;
+}
+
+.avatar {
+    width: 180px;
+    height: 250px; 
+    padding: 0 13px;
+    border-radius: 20px; /*10 px border radius doesnt seem to have a noticeable effect? */
+    
+}
+
+#card-about {
+    padding-right: 13px
+}
+
